@@ -1,6 +1,6 @@
 
 ### path:
-/net/meso/climphys/cesm212/b.e212.BHISTcmip6.f09_g17.0900/archive/atm/hist/*h3*00000.nc
+/data/path/
 
 ### first select season with 12hourly timesteps
 time ncks -d time,1988-12-01,1989-01-01,2 -d time,1988-01-01,1988-03-01,2 b.e212.BHISTcmip6.f09_g17.0900.cam.h3.1988-01-01-00000.nc test.nc
