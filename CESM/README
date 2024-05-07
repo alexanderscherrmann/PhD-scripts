@@ -1,0 +1,39 @@
+
+### path:
+/net/meso/climphys/cesm212/b.e212.BHISTcmip6.f09_g17.0900/archive/atm/hist/*h3*00000.nc
+
+### first select season with 12hourly timesteps
+time ncks -d time,1988-12-01,1989-01-01,2 -d time,1988-01-01,1988-03-01,2 b.e212.BHISTcmip6.f09_g17.0900.cam.h3.1988-01-01-00000.nc test.nc
+
+### Appending takes longer than writing the file a new! Therefore
+time ncap2 -As 'RH=(0.263 * lev * 100. * Q/(exp(17.67 * (T-273.16)/(T-29.65))))' test.nc RHtest.nc
+
+### then interpolate
+time ncremap -t 2 --vrt_fl=vrt_prs.nc --vrt_xtr=nrs_ngh --vrt_ntp=log -v U,V,T,RH,Z3 RHtest.nc interpolation-test.nc
+
+create presentdate 1980-2010, early, mid and late projection 2011-2040, 2041-2070, 2071-2100
+
+
+
+### to do, get for 1 ensemble 0900
+step 1. select time
+
+step 2. calc RH
+step 3. set RH to max of 100
+step 4. sum all times & get ntim
+step 5. rm interpolate files
+step 6. repeat 1-4
+step 7. combine summed files
+
+climatology of DJF
+RH, T, GHT, U, V 3D
+make RH everywhere 100 where it is >100
+
+need number of time steps that have to be stored: cdo ntimestep
+
+only 1 time dimension for all pressure levels later: cdo timesum
+then for second season: cdo enssum of previous timesum and the current new file
+
+rm interpolated file
+
+
