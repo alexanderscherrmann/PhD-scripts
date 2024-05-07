@@ -1,0 +1,326 @@
+qt.qpa.xcb: could not connect to display localhost:10.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, minimal, minimalegl, offscreen, vnc, webgl, xcb.
+
+20171203_00-014
+20171210_20-058
+20171212_14-072
+20171214_02-073
+20171216_20-096
+20171229_07-158
+20180103_02-017
+20180104_17-029
+20180113_15-080
+0.3120721906962107 0.6537318514185878 0.03419595788520157 9
+0.43337013089418075 [0.         1.         0.40748031 0.         0.35567715 1.
+ 0.10791367 0.42119565 0.04377565]
+Traceback (most recent call last):
+  File "traj-cyc-env-adv.py", line 215, in <module>
+    bp = ax.boxplot(tsc,whis=(10,90),labels=t,flierprops=flier,meanprops=meanline,meanline=True,showmeans=True,showfliers=False)
+NameError: name 'flier' is not defined
+20171203_00-014
+20171210_20-058
+20171212_14-072
+20171214_02-073
+20171216_20-096
+20171229_07-158
+20180103_02-017
+20180104_17-029
+20180113_15-080
+0.3120721906962107 0.6537318514185878 0.03419595788520157 9
+0.43337013089418075 [0.         1.         0.40748031 0.         0.35567715 1.
+ 0.10791367 0.42119565 0.04377565]
+usage: APV-origin.py [-h] rdis type deltaPSP ZBB
+APV-origin.py: error: the following arguments are required: rdis, type, deltaPSP, ZBB
+PV-percentage-radii.py:128: RuntimeWarning: invalid value encountered in true_divide
+  localpercentage[date][rdis] = np.mean(abs(dipv[date][cyc]['APVTOT'][idp,0])/(abs(dipv[date][cyc]['APVTOT'][idp,0])+abs(dipv[date][env]['APVTOT'][idp,0])))
+PV-percentage-radii.py:131: RuntimeWarning: invalid value encountered in true_divide
+  globalpercentage = np.append(globalpercentage,np.mean(abs(meandi[cyc][:,0])/(abs(meandi[cyc][:,0]) + abs(meandi[env][:,0]))))
+Traceback (most recent call last):
+  File "PV-percentage-radii.py", line 172, in <module>
+    ax.text(0.05, 0.95, 'f)', transform=ax.transAxes,fontsize=16, fontweight='bold', va='top')
+NameError: name 'ax' is not defined
+PV-percentage-radii.py:128: RuntimeWarning: invalid value encountered in true_divide
+  localpercentage[date][rdis] = np.mean(abs(dipv[date][cyc]['APVTOT'][idp,0])/(abs(dipv[date][cyc]['APVTOT'][idp,0])+abs(dipv[date][env]['APVTOT'][idp,0])))
+PV-percentage-radii.py:131: RuntimeWarning: invalid value encountered in true_divide
+  globalpercentage = np.append(globalpercentage,np.mean(abs(meandi[cyc][:,0])/(abs(meandi[cyc][:,0]) + abs(meandi[env][:,0]))))
+Traceback (most recent call last):
+  File "PV-percentage-radii.py", line 172, in <module>
+    axes.text(0.05, 0.95, 'f)', transform=ax.transAxes,fontsize=16, fontweight='bold', va='top')
+NameError: name 'ax' is not defined
+PV-percentage-radii.py:128: RuntimeWarning: invalid value encountered in true_divide
+  localpercentage[date][rdis] = np.mean(abs(dipv[date][cyc]['APVTOT'][idp,0])/(abs(dipv[date][cyc]['APVTOT'][idp,0])+abs(dipv[date][env]['APVTOT'][idp,0])))
+PV-percentage-radii.py:131: RuntimeWarning: invalid value encountered in true_divide
+  globalpercentage = np.append(globalpercentage,np.mean(abs(meandi[cyc][:,0])/(abs(meandi[cyc][:,0]) + abs(meandi[env][:,0]))))
+usage: APV-origin.py [-h] rdis type deltaPSP ZBB
+APV-origin.py: error: the following arguments are required: rdis, type, deltaPSP, ZBB
+Traceback (most recent call last):
+  File "APV-origin.py", line 125, in <module>
+    htzeta = td[montmp][idtmp]['hzeta']
+KeyError: 178
+qt.qpa.xcb: could not connect to display localhost:13.0
+qt.qpa.plugin: Could not load the Qt platform plugin "xcb" in "" even though it was found.
+This application failed to start because no Qt platform plugin could be initialized. Reinstalling the application may fix this problem.
+
+Available platform plugins are: eglfs, minimal, minimalegl, offscreen, vnc, webgl, xcb.
+
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+/atmosdyn2/ascherrmann/scripts/helper.py:25: RuntimeWarning: invalid value encountered in sqrt
+  return (2 * np.pi * 6370/360 * np.sqrt(dlat**2 + (dlon * np.cos(latitude/180 * np.pi)**2)))
+  File "IFS-full-traj-start-files.py", line 45
+    pid, = np.where((P>=700) & (P<=975) & (pv[:,clat[l],clon[l]>=0.75)
+                                                                     ^
+SyntaxError: invalid syntax
+usage: New-identification.py [-h] months
+New-identification.py: error: the following arguments are required: months
+usage: New-identification.py [-h] months
+New-identification.py: error: the following arguments are required: months
+usage: New-identification.py [-h] months
+New-identification.py: error: unrecognized arguments: JAN18 FEB18
+usage: New-identification.py [-h] months
+New-identification.py: error: unrecognized arguments: APR18 MAY18
+Traceback (most recent call last):
+  File "New-identification.py", line 73, in <module>
+    clat = np.zeros((len(r200_lonids)),dtype=int)
+NameError: name 'r200_lonids' is not defined
+Traceback (most recent call last):
+  File "New-identification.py", line 73, in <module>
+    clat = np.zeros((len(r200_lonids)),dtype=int)
+NameError: name 'r200_lonids' is not defined
+  File "New-identification.py", line 70
+    if ((d[cappear[-1],2]>lonb[0]]) & (d[cappear[-1],2]<lonb[-1])):
+                                 ^
+SyntaxError: invalid syntax
+  File "New-identification.py", line 78
+    if ((d[cappear[0],2]>l) & (d[cappear[0],2]<lonb[k+1]) & (d[cappear[0],3]>latb[2*k]) &(d[cappear[0],3]<>latb[2*k+1])):
+                                                                                                          ^
+SyntaxError: invalid syntax
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+Traceback (most recent call last):
+  File "New-identification.py", line 58, in <module>
+    d = np.loadtxt(track,skiprows=1)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/npyio.py", line 981, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 269, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 623, in open
+    raise IOError("%s not found." % path)
+OSError: /atmosdyn/atroman/phd/OCT18/cyclones/TRACKED_CYCLONES not found.
+Traceback (most recent call last):
+  File "New-identification.py", line 58, in <module>
+    d = np.loadtxt(track,skiprows=1)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/npyio.py", line 981, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 269, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 623, in open
+    raise IOError("%s not found." % path)
+OSError: /atmosdyn/atroman/phd/NOV18/cyclones/TRACKED_CYCLONES not found.
+Traceback (most recent call last):
+  File "New-identification.py", line 58, in <module>
+    d = np.loadtxt(track,skiprows=1)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/npyio.py", line 981, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 269, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 623, in open
+    raise IOError("%s not found." % path)
+OSError: /atmosdyn2/atroman/phd/NOV18/cyclones/TRACKED_CYCLONES not found.
+Traceback (most recent call last):
+  File "New-identification.py", line 58, in <module>
+    d = np.loadtxt(track,skiprows=1)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/npyio.py", line 981, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 269, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 623, in open
+    raise IOError("%s not found." % path)
+OSError: /atmosdyn2/atroman/phd/OCT18/cyclones/TRACKED_CYCLONES not found.
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+New-identification.py:106: FutureWarning: elementwise comparison failed; returning scalar instead, but in the future will perform elementwise comparison
+  if (~(np.any(Gdates==Date))):
+Traceback (most recent call last):
+  File "residual-deltaPSP.py", line 16, in <module>
+    f = open(pload + 'PV-data-' + CT + 'dPSP-100-ZB-800Pvedge-0.3-400-correct-distance.txt','rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/atmosdyn2/ascherrmann/010-IFS/ctraj/MED/use/PV-data-MEDdPSP-100-ZB-800Pvedge-0.3-400-correct-distance.txt'
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/matplotlib/colors.py:1171: RuntimeWarning: invalid value encountered in less_equal
+  mask |= resdat <= 0
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+  File "pvr-res-pv-grid.py", line 234
+    if pv='DeltaPV':
+         ^
+SyntaxError: invalid syntax
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+Traceback (most recent call last):
+  File "PV-percentage-radii.py", line 15, in <module>
+    f = open(pload + 'PV-data-' +CT + 'dPSP-100-ZB-800PVedge-0.3-%d-correct-distance.txt'%rdis,'rb')
+FileNotFoundError: [Errno 2] No such file or directory: '/atmosdyn2/ascherrmann/010-IFS/traj/MED/use/PV-data-ETAdPSP-100-ZB-800PVedge-0.3-800-correct-distance.txt'
+/usr/bin/xvfb-run: line 173: kill: (5704) - No such process
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+0.4878490157763511 0.38084435506433817 0.13130662915931066 647
+1.8444572673324653 0.7003837841945287
+0.8381298527283256 0.30594363040961076
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:782: MatplotlibDeprecationWarning: Passing the minor parameter of set_xticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_xticks(xticks, minor)
+/usr/local/Miniconda3-envs/envs/2020/envs/iacpy3_2020/lib/python3.7/site-packages/cartopy/mpl/geoaxes.py:829: MatplotlibDeprecationWarning: Passing the minor parameter of set_yticks() positionally is deprecated since Matplotlib 3.2; the parameter will become keyword-only two minor releases later.
+  return super(GeoAxes, self).set_yticks(yticks, minor)

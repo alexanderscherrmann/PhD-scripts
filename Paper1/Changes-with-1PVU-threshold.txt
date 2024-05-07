@@ -1,0 +1,5 @@
+Number of cyclones with 200 trajectories passing threshold 
+	of  1 PVU = 1802
+	of 1.25 PVU = 1112
+	of 1.5 PVU  = 609
+

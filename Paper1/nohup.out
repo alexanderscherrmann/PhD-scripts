@@ -1,0 +1,157 @@
+32
+33
+[0.000e+00 0.000e+00 0.000e+00 1.000e+00 1.000e+00 2.000e+00 6.000e+00
+ 1.000e+01 1.800e+01 2.100e+01 2.700e+01 3.400e+01 5.000e+01 6.700e+01
+ 8.700e+01 1.150e+02 1.560e+02 1.960e+02 2.520e+02 2.950e+02 3.540e+02
+ 4.220e+02 4.930e+02 5.700e+02 6.630e+02 7.540e+02 8.290e+02 8.920e+02
+ 9.600e+02 1.017e+03 1.075e+03 1.109e+03]
+32
+33
+[  0.   0.   0.   1.   1.   2.   4.   8.  14.  15.  20.  24.  34.  48.
+  60.  76.  91. 117. 151. 179. 210. 249. 285. 325. 372. 418. 452. 492.
+ 527. 559. 590. 608.]
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+Traceback (most recent call last):
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/cbook/__init__.py", line 287, in process
+    func(*args, **kwargs)
+  File "/usr/local/Miniconda3-envs/envs/2022/envs/iacpy3_2022/lib/python3.9/site-packages/matplotlib/contour.py", line 70, in _contour_labeler_event_handler
+    if event.inaxes == cs.ax:
+AttributeError: 'GeoContourSet' object has no attribute 'ax'
+usage: traj-cyc-env-adv.py [-h] rdis hcyc
+traj-cyc-env-adv.py: error: the following arguments are required: hcyc
+609 609
+0.3586368124186997 0.3492056539551627 0.29215753362613756 0
+anomalies
+0.15227028663001246 0.4576822380464961 0.3900474753234915 0.5128794825726349
+numbers
+0 0 0
+Traceback (most recent call last):
+  File "/atmosdyn2/ascherrmann/scripts/Paper1/revision-eval/traj-cyc-env-adv.py", line 287, in <module>
+    fig.savefig('/atmosdyn2/ascherrmann/paper/cyc-env-PV/review/PV-evol-lines-t-%d-dis-%s.png'%(hcyc,rdis,thresh),dpi=300,bbox_inches="tight")
+TypeError: not all arguments converted during string formatting
+1112 1112
+0.3671715709590137 0.3805954587682872 0.25223297027269914 0
+anomalies
+0.14120911046308346 0.5136112903881753 0.34517959914874113 0.5358109783530198
+numbers
+0 0 0
+Traceback (most recent call last):
+  File "/atmosdyn2/ascherrmann/scripts/Paper1/revision-eval/traj-cyc-env-adv.py", line 287, in <module>
+    fig.savefig('/atmosdyn2/ascherrmann/paper/cyc-env-PV/review/PV-evol-lines-t-%d-dis-%s.png'%(hcyc,rdis,thresh),dpi=300,bbox_inches="tight")
+TypeError: not all arguments converted during string formatting
+1802 1802
+0.3719993625531707 0.39895288154369984 0.22904775590312954 0
+anomalies
+0.12753470970777736 0.5576494830011007 0.31481580729112185 0.5542528814249227
+numbers
+0 0 0
+Traceback (most recent call last):
+  File "/atmosdyn2/ascherrmann/scripts/Paper1/revision-eval/traj-cyc-env-adv.py", line 287, in <module>
+    fig.savefig('/atmosdyn2/ascherrmann/paper/cyc-env-PV/review/PV-evol-lines-t-%d-dis-%d-%s.png'%(hcyc,rdis,thresh),dpi=300,bbox_inches="tight")
+TypeError: not all arguments converted during string formatting
+609 609
+0.3586368124186997 0.3492056539551627 0.29215753362613756 0
+anomalies
+0.15227028663001246 0.4576822380464961 0.3900474753234915 0.5128794825726349
+numbers
+0 0 0
+1112 1112
+0.3671715709590137 0.3805954587682872 0.25223297027269914 0
+anomalies
+0.14120911046308346 0.5136112903881753 0.34517959914874113 0.5358109783530198
+numbers
+0 0 0
+1802 1802
+0.3719993625531707 0.39895288154369984 0.22904775590312954 0
+anomalies
+0.12753470970777736 0.5576494830011007 0.31481580729112185 0.5542528814249227
+numbers
+0 0 0
+[   0  100  200  300  400  500  600  700  800  900 1000]
+[ 0.          4.80350457 15.35356011 22.41304649 26.69430756 29.8159271
+ 32.18316297 34.00582991 35.36447741 36.3981227  37.20915078]
+[   0  100  200  300  400  500  600  700  800  900 1000]
+[ 0.          5.58188297 16.92826502 24.34257992 28.74604816 31.91761158
+ 34.30537087 36.10351107 37.45767807 38.49098216 39.30197083]
+[   0  100  200  300  400  500  600  700  800  900 1000]
+[ 0.          6.03113924 17.77522679 25.36357327 29.82195023 32.98425484
+ 35.30371785 37.01966243 38.30277745 39.26874149 40.02337283]
+The X11 connection broke (error 1). Did the X11 server die?
+The X11 connection broke (error 1). Did the X11 server die?
+The X11 connection broke (error 1). Did the X11 server die?
+609 609
+0.3586368124186997 0.3492056539551627 0.29215753362613756 0
+anomalies
+0.15227028663001246 0.4576822380464961 0.3900474753234915 0.5128794825726349
+numbers
+0 0 0
+finish
+finish
+[   0  100  200  300  400  500  600  700  800  900 1000]
+[ 0.         12.17601359 42.41569265 60.00508555 68.5557758  73.79216556
+ 77.26152527 79.29553083 80.38482212 81.30504104 81.75252984]
+/usr/bin/xvfb-run: line 173: kill: (42977) - No such process
+[   0  100  200  300  400  500  600  700  800  900 1000]
+[ 0.         12.17601359 42.41569265 60.00508555 68.5557758  73.79216556
+ 77.26152527 79.29553083 80.38482212 81.30504104 81.75252984]
+/usr/bin/xvfb-run: line 173: kill: (43951) - No such process
+[   0  100  200  300  400  500  600  700  800  900 1000]
+[ 0.          4.80350457 15.35356011 22.41304649 26.69430756 29.8159271
+ 32.18316297 34.00582991 35.36447741 36.3981227  37.20915078]
+/usr/bin/xvfb-run: line 173: kill: (1330) - No such process
+usage: zorbas-pvevol.py [-h] rdis
+zorbas-pvevol.py: error: the following arguments are required: rdis
+524945
+usage: MED-cases-cyc-env.py [-h] rdis
+MED-cases-cyc-env.py: error: the following arguments are required: rdis
+28
+28
+true
+true
+true
+28
+28
+true
+true
+true
